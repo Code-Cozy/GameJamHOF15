@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyruntime\\uht\\articyrichtextdecorator.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "t:\\github\\petrichoria\\intermediate\\build\\win64\\x64\\peteditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\articyruntime\\definitions.articyruntime.h",
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\source\\articyruntime\\public\\articyrichtextdecorator.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\islaterun.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\ilayoutblock.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\irunrenderer.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\itextdecorator.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\runtime\\umg\\public\\components\\richtextblockdecorator.h",
+            "t:\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\umg\\uht\\richtextblockdecorator.generated.h",
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyruntime\\uht\\articyrichtextdecorator.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

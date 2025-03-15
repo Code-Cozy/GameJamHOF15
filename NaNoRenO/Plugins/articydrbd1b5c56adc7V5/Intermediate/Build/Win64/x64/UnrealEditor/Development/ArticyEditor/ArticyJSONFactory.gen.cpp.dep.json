@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyeditor\\uht\\articyjsonfactory.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "t:\\github\\petrichoria\\intermediate\\build\\win64\\x64\\peteditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\articyeditor\\definitions.articyeditor.h",
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\source\\articyeditor\\public\\articyjsonfactory.h",
+            "t:\\epic games\\ue_5.5\\engine\\source\\editor\\unrealed\\public\\editorreimporthandler.h",
+            "t:\\github\\petrichoria\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyeditor\\uht\\articyjsonfactory.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

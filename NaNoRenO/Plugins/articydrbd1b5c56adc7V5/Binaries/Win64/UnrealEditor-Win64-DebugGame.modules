@@ -1,0 +1,8 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"ArticyEditor": "UnrealEditor-ArticyEditor-Win64-DebugGame.dll",
+		"ArticyRuntime": "UnrealEditor-ArticyRuntime-Win64-DebugGame.dll"
+	}
+}

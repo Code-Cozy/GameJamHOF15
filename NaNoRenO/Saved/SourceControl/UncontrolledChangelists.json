@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Maps/L_Scene.umap",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Blueprints/GI_Nano.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Blueprints/GM_Nano.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Blueprints/PC_Nano.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_HUD.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_MainMenu.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_Pause.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_Switcher.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_Advance.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Widgets/WBP_Close.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Blueprints/IMC_Nano.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Content/Blueprints/IA_Pause.uasset",
+				"T:/Github/GameJamHOF15/NaNoRenO/Plugins/articydrbd1b5c56adc7V5/Content/UI/W_ArticyBranchButton.uasset"
+			]
+		}
+	]
+}
