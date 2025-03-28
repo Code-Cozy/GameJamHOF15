@@ -14,49 +14,49 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARTICYEDITOR_ObjectDefinitionsImport_generated_h
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_25_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_25_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyTemplateConstraint_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTemplateConstraint>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_51_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_51_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyPropertyDef_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyPropertyDef>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_149_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_149_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyEnumValue_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyEnumValue>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_171_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_171_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyTemplateFeatureDef_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTemplateFeatureDef>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_275_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_275_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyTemplateDef_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTemplateDef>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_373_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_373_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyObjectDef_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyObjectDef>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_486_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h_486_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyObjectDefinitions_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
@@ -64,7 +64,7 @@ template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyObjectDef>
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyObjectDefinitions>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h
+#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ObjectDefinitionsImport_h
 
 
 #define FOREACH_ENUM_EOBJECTDEFTYPE(op) \

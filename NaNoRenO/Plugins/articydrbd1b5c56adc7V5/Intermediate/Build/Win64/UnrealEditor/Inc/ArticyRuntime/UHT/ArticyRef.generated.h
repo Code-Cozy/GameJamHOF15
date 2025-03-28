@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARTICYRUNTIME_ArticyRef_generated_h
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyRef_h_14_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyRef_h_14_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyRef_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -22,7 +22,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyRef>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyRef_h
+#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyRef_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

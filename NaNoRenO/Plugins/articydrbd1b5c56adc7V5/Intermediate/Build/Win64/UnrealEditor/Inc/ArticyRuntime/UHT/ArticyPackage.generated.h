@@ -17,7 +17,7 @@ struct FArticyId;
 #endif
 #define ARTICYRUNTIME_ArticyPackage_generated_h
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execGetAssetByTechnicalName); \
 	DECLARE_FUNCTION(execGetAssetById); \
 	DECLARE_FUNCTION(execGetAssetsDict); \
@@ -26,7 +26,7 @@ struct FArticyId;
 	DECLARE_FUNCTION(execAssetNum);
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUArticyPackage(); \
 	friend struct Z_Construct_UClass_UArticyPackage_Statics; \
@@ -35,7 +35,7 @@ public: \
 	DECLARE_SERIALIZER(UArticyPackage)
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UArticyPackage(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -49,13 +49,13 @@ public: \
 	NO_API virtual ~UArticyPackage();
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_13_PROLOG
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_13_PROLOG
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -63,7 +63,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ARTICYRUNTIME_API UClass* StaticClass<class UArticyPackage>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h
+#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyPackage_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

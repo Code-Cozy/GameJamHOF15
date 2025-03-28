@@ -18,21 +18,21 @@ struct FArticyId;
 #endif
 #define ARTICYRUNTIME_ArticyDatabase_generated_h
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_26_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_26_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyObjectShadow_Statics; \
 	ARTICYRUNTIME_API static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyObjectShadow>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_68_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_68_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyShadowableObject_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyShadowableObject>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUArticyCloneableObject(); \
 	friend struct Z_Construct_UClass_UArticyCloneableObject_Statics; \
@@ -41,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(UArticyCloneableObject)
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UArticyCloneableObject(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -55,26 +55,26 @@ public: \
 	NO_API virtual ~UArticyCloneableObject();
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_103_PROLOG
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_103_PROLOG
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_INCLASS_NO_PURE_DECLS \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_106_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
 template<> ARTICYRUNTIME_API UClass* StaticClass<class UArticyCloneableObject>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_160_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_160_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyDatabaseObjectArray_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyDatabaseObjectArray>();
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execSetExpressoScriptsClass); \
 	DECLARE_FUNCTION(execGetOrCloneByName); \
 	DECLARE_FUNCTION(execGetOrClone); \
@@ -95,7 +95,7 @@ template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyDatabaseO
 	DECLARE_FUNCTION(execUnloadDatabase);
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUArticyDatabase(); \
 	friend struct Z_Construct_UClass_UArticyDatabase_Statics; \
@@ -107,7 +107,7 @@ public: \
 	virtual UObject* _getUObject() const override { return const_cast<UArticyDatabase*>(this); }
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	UArticyDatabase(UArticyDatabase&&); \
@@ -119,13 +119,13 @@ public: \
 	NO_API virtual ~UArticyDatabase();
 
 
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_170_PROLOG
-#define FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_GENERATED_BODY \
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_170_PROLOG
+#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_INCLASS_NO_PURE_DECLS \
-	FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h_173_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -133,7 +133,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ARTICYRUNTIME_API UClass* StaticClass<class UArticyDatabase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Github_petrichoria_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h
+#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyDatabase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
