@@ -17,12 +17,12 @@ class INanorenoMethodsProvider
 public:
 	
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Articy Methods Provider", meta=(DisplayName="SetBackground"))
-	bool SetBackground_String(const FString& aParam0) ;
-	virtual bool SetBackground_String_Implementation(const FString& aParam0) { return true; };
+	void SetBackground_String(const FString& aParam0) ;
+	virtual void SetBackground_String_Implementation(const FString& aParam0) {  };
 	
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category="Articy Methods Provider", meta=(DisplayName="PlaySound"))
-	bool PlaySound_String(const FString& aParam0) ;
-	virtual bool PlaySound_String_Implementation(const FString& aParam0) { return true; };
+	void PlaySound_String(const FString& aParam0) ;
+	virtual void PlaySound_String_Implementation(const FString& aParam0) {  };
 };
 
 UCLASS(BlueprintType, Blueprintable)
@@ -32,17 +32,17 @@ class NANORENO_API UNanorenoExpressoScripts : public UArticyExpressoScripts
 	
 private:
 	
-	bool SetBackground(const FString& aParam0) const
+	void SetBackground(const FString& aParam0) const
 	{
 		auto methodProvider = GetUserMethodsProviderObject();
-		if(!methodProvider) return true;
-		return INanorenoMethodsProvider::Execute_SetBackground_String(methodProvider, aParam0);
+		if(!methodProvider) return ;
+		INanorenoMethodsProvider::Execute_SetBackground_String(methodProvider, aParam0);
 	}
-	bool PlaySound(const FString& aParam0) const
+	void PlaySound(const FString& aParam0) const
 	{
 		auto methodProvider = GetUserMethodsProviderObject();
-		if(!methodProvider) return true;
-		return INanorenoMethodsProvider::Execute_PlaySound_String(methodProvider, aParam0);
+		if(!methodProvider) return ;
+		INanorenoMethodsProvider::Execute_PlaySound_String(methodProvider, aParam0);
 	}
 	
 private:
@@ -79,120 +79,18 @@ public:
 	#endif
 	 UNanorenoExpressoScripts() 
 	{
-		Conditions.Add(-1763144621, [&]
+		Instructions.Add(1149983384, [&]
 		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("General Store")))
-			);
-		});
-		Conditions.Add(-778666339, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Apothecary")))
-			);
-		});
-		Conditions.Add(1365931001, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Tailorshop")))
-			);
-		});
-		Instructions.Add(54345062, [&]
-		{
-			(*GameState->LookedAroundMailbox) = true;
-		});
-		Instructions.Add(-2137613694, [&]
-		{
-			(*GameState->OpenedMailbox) = true;
-		});
-		Conditions.Add(-1711399687, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Forest")))
-			);
-		});
-		Instructions.Add(579762233, [&]
-		{
-			SetBackground(FString(TEXT("Mailbox with feet")));
+			(*GameState->TookMushlingMail2) = true;
 		});
 		Instructions.Add(-2145456604, [&]
 		{
 			(*GameState->TookMushlingMail) = true;
 		});
-		Instructions.Add(453919106, [&]
-		{
-			(*GameState->TookMushlingMail) = false;
-		});
-		Conditions.Add(1055292674, [&]
+		Conditions.Add(-1636524287, [&]
 		{
 			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Lumberyard")))
-			);
-		});
-		Conditions.Add(-405321653, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("School")))
-			);
-		});
-		Conditions.Add(-1638166579, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Town Hall")))
-			);
-		});
-		Conditions.Add(263151215, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Opal's Room")))
-			);
-		});
-		Conditions.Add(667563602, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Inn")))
-			);
-		});
-		Conditions.Add(-1090126290, [&]
-		{
-			return ConditionOrTrue(
-				PlaySound(FString(TEXT("Knock Knock")))
-			);
-		});
-		Instructions.Add(1149983384, [&]
-		{
-			(*GameState->TookMushlingMail2) = true;
-		});
-		Conditions.Add(579762233, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Mailbox with feet")))
-			);
-		});
-		Conditions.Add(1551351120, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Forest")))
-			);
-		});
-		Conditions.Add(-1779323168, [&]
-		{
-			return ConditionOrTrue(
-				SetBackground(FString(TEXT("Carpenter")))
-			);
-		});
-		Instructions.Add(-1080852522, [&]
-		{
-			(*GameState->TookMushlingMail) = true;
-		});
-		Instructions.Add(432885390, [&]
-		{
-			(*GameState->TookMushlingMail3) = true;
-		});
-		Conditions.Add(-1914132273, [&]
-		{
-			return ConditionOrTrue(
-				(*GameState->InquireAboutBooks) == true
+				(*GameState->DeliverMailWOBreakfast) == true
 			);
 		});
 		Conditions.Add(356762263, [&]
@@ -201,16 +99,16 @@ public:
 				(*GameState->BooksDelivered) == true
 			);
 		});
-		Conditions.Add(-1636524287, [&]
+		Conditions.Add(-1722534272, [&]
 		{
 			return ConditionOrTrue(
-				(*GameState->DeliverMailWOBreakfast) == true
+				(*GameState->InquireAboutBooks) == true
 			);
 		});
-		Conditions.Add(-1528146134, [&]
+		Conditions.Add(1807382270, [&]
 		{
 			return ConditionOrTrue(
-				(*GameState->BooksDelivered) == true && (*GameState->InquireAboutBooks) == true
+				(*GameState->BooksDelivered) == true  && (*GameState->InquireAboutBooks) == true
 			);
 		});
 		Conditions.Add(259470881, [&]
@@ -243,9 +141,9 @@ public:
 				(*GameState->TookMushlingMail) == true
 			);
 		});
-		Instructions.Add(-1565396723, [&]
+		Instructions.Add(667563602, [&]
 		{
-			(*GameState->BooksDelivered) = true;
+			SetBackground(FString(TEXT("Inn")));
 		});
 		Instructions.Add(784019345, [&]
 		{
@@ -255,17 +153,29 @@ public:
 		{
 			(*GameState->InquireAboutBooks) = true;
 		});
-		Instructions.Add(632960496, [&]
+		Instructions.Add(-1565396723, [&]
 		{
-			PlaySound(FString(TEXT("Loud Crash from Above")));
-		});
-		Instructions.Add(667563602, [&]
-		{
-			SetBackground(FString(TEXT("Inn")));
+			(*GameState->BooksDelivered) = true;
 		});
 		Instructions.Add(191485815, [&]
 		{
 			SetBackground(FString(TEXT("Library")));
+		});
+		Instructions.Add(508283933, [&]
+		{
+			SetBackground(FString(TEXT("GeneralStore")));
+		});
+		Instructions.Add(632960496, [&]
+		{
+			PlaySound(FString(TEXT("Loud Crash from Above")));
+		});
+		Instructions.Add(-778666339, [&]
+		{
+			SetBackground(FString(TEXT("Apothecary")));
+		});
+		Instructions.Add(970979305, [&]
+		{
+			SetBackground(FString(TEXT("Seamstress")));
 		});
 		Instructions.Add(1055292674, [&]
 		{
@@ -279,9 +189,49 @@ public:
 		{
 			SetBackground(FString(TEXT("Forest")));
 		});
+		Instructions.Add(-1659073513, [&]
+		{
+			SetBackground(FString(TEXT("MailboxWithFeet")));
+		});
+		Instructions.Add(54345062, [&]
+		{
+			(*GameState->LookedAroundMailbox) = true;
+		});
+		Instructions.Add(-2137613694, [&]
+		{
+			(*GameState->OpenedMailbox) = true;
+		});
 		Instructions.Add(-405321653, [&]
 		{
 			SetBackground(FString(TEXT("School")));
+		});
+		Instructions.Add(1031130970, [&]
+		{
+			SetBackground(FString(TEXT("TownHall")));
+		});
+		Instructions.Add(1719607317, [&]
+		{
+			SetBackground(FString(TEXT("OpalsRoom")));
+		});
+		Instructions.Add(-1090126290, [&]
+		{
+			PlaySound(FString(TEXT("Knock Knock")));
+		});
+		Instructions.Add(-1616562767, [&]
+		{
+			SetBackground(FString(TEXT("GeneralStore")));
+		});
+		Instructions.Add(-1779323168, [&]
+		{
+			SetBackground(FString(TEXT("Carpenter")));
+		});
+		Instructions.Add(432885390, [&]
+		{
+			(*GameState->TookMushlingMail3) = true;
+		});
+		Instructions.Add(-1080852522, [&]
+		{
+			(*GameState->TookMushlingMail) = true;
 		});
 	}
 	#if !((defined(PLATFORM_PS4) && PLATFORM_PS4) || (defined(PLATFORM_PS5) && PLATFORM_PS5))

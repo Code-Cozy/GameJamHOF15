@@ -2,7 +2,7 @@
 	"BuildId": "37670630",
 	"Modules": 
 	{
-		"ArticyEditor": "UnrealEditor-ArticyEditor.dll",
-		"ArticyRuntime": "UnrealEditor-ArticyRuntime.dll"
+		"ArticyEditor": "UnrealEditor-ArticyEditor-0003.dll",
+		"ArticyRuntime": "UnrealEditor-ArticyRuntime-0003.dll"
 	}
 }

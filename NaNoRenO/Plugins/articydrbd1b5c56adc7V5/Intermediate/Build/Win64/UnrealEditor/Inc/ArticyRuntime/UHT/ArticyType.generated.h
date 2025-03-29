@@ -14,21 +14,21 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARTICYRUNTIME_ArticyType_generated_h
 
-#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_12_GENERATED_BODY \
+#define FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_12_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyEnumValueInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyEnumValueInfo>();
 
-#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_31_GENERATED_BODY \
+#define FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_31_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyPropertyInfo_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyPropertyInfo>();
 
-#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_53_GENERATED_BODY \
+#define FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h_53_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyType_Statics; \
 	static class UScriptStruct* StaticStruct();
 
@@ -36,7 +36,7 @@ template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyPropertyI
 template<> ARTICYRUNTIME_API UScriptStruct* StaticStruct<struct FArticyType>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h
+#define CURRENT_FILE_ID FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyRuntime_Public_ArticyType_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

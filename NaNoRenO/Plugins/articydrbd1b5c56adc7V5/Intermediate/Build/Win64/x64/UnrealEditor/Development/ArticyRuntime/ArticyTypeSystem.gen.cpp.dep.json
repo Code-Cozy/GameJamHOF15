@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyruntime\\uht\\articytypesystem.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "t:\\github\\gamejamhof15\\nanoreno\\intermediate\\build\\win64\\x64\\nanorenoeditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\articyruntime\\definitions.articyruntime.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\source\\articyruntime\\public\\articytypesystem.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\source\\articyruntime\\public\\articytype.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyruntime\\uht\\articytype.generated.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyruntime\\uht\\articytypesystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

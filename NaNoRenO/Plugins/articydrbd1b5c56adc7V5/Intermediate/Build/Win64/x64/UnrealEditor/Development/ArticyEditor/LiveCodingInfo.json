@@ -2,15 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ArticyEditor.cpp.obj": [
-			"ArticyAlternativeGVFactory.gen.cpp.obj",
-			"ArticyArchiveReader.gen.cpp.obj",
-			"ArticyEditor.init.gen.cpp.obj",
-			"ArticyImportCommandlet.gen.cpp.obj",
-			"ArticyImportData.gen.cpp.obj",
-			"ArticyJSONFactory.gen.cpp.obj",
-			"ArticyTexts.gen.cpp.obj",
-			"ObjectDefinitionsImport.gen.cpp.obj",
-			"PackagesImport.gen.cpp.obj",
 			"PerModuleInline.gen.cpp.obj",
 			"ArticyArchiveReader.cpp.obj",
 			"ArticyEditorCommands.cpp.obj",
@@ -57,7 +48,16 @@
 			"SArticyRefProperty.cpp.obj",
 			"SPackageSettings.cpp.obj",
 			"UserInterfaceHelperFunctions.cpp.obj",
-			"StringTableGenerator.cpp.obj"
+			"StringTableGenerator.cpp.obj",
+			"ArticyAlternativeGVFactory.gen.cpp.obj",
+			"ArticyArchiveReader.gen.cpp.obj",
+			"ArticyEditor.init.gen.cpp.obj",
+			"ArticyImportCommandlet.gen.cpp.obj",
+			"ArticyImportData.gen.cpp.obj",
+			"ArticyJSONFactory.gen.cpp.obj",
+			"ArticyTexts.gen.cpp.obj",
+			"ObjectDefinitionsImport.gen.cpp.obj",
+			"PackagesImport.gen.cpp.obj"
 		]
 	}
 }

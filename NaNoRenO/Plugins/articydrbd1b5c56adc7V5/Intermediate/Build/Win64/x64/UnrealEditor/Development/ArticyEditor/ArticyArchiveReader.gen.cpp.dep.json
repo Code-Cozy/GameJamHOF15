@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyeditor\\uht\\articyarchivereader.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "t:\\github\\gamejamhof15\\nanoreno\\intermediate\\build\\win64\\x64\\nanorenoeditor\\development\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\articyeditor\\definitions.articyeditor.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\source\\articyeditor\\public\\articyarchivereader.h",
+            "t:\\github\\gamejamhof15\\nanoreno\\plugins\\articydrbd1b5c56adc7v5\\intermediate\\build\\win64\\unrealeditor\\inc\\articyeditor\\uht\\articyarchivereader.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

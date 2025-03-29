@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ArticyEditor-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"T:\Github\GameJamHOF15\NaNoRenO\Intermediate\Build\Win64\x64\NaNoRenOEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"T:\Github\GameJamHOF15\NaNoRenO\Plugins\articydrbd1b5c56adc7V5\Intermediate\Build\Win64\x64\UnrealEditor\Development\ArticyEditor\Module.ArticyEditor.cpp.obj"
+"T:\Github\GameJamHOF15\NaNoRenO\Plugins\articydrbd1b5c56adc7V5\Intermediate\Build\Win64\x64\UnrealEditor\Development\ArticyEditor\Default.rc2.res"
+/OUT:"T:\Github\GameJamHOF15\NaNoRenO\Plugins\articydrbd1b5c56adc7V5\Intermediate\Build\Win64\x64\UnrealEditor\Development\ArticyEditor\UnrealEditor-ArticyEditor-0001.lib"

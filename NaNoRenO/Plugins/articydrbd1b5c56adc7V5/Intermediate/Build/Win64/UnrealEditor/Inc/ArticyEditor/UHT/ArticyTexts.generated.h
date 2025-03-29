@@ -14,14 +14,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ARTICYEDITOR_ArticyTexts_generated_h
 
-#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h_18_GENERATED_BODY \
+#define FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h_18_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyTextDef_Statics; \
 	static class UScriptStruct* StaticStruct();
 
 
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTextDef>();
 
-#define FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h_42_GENERATED_BODY \
+#define FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h_42_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FArticyTexts_Statics; \
 	ARTICYEDITOR_API static class UScriptStruct* StaticStruct();
 
@@ -29,7 +29,7 @@ template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTextDef>()
 template<> ARTICYEDITOR_API UScriptStruct* StaticStruct<struct FArticyTexts>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h
+#define CURRENT_FILE_ID FID_Github_GameJamHOF15_NaNoRenO_Plugins_articydrbd1b5c56adc7V5_Source_ArticyEditor_Public_ArticyTexts_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ArticyRuntime.1.cpp.obj": [
+			"PerModuleInline.gen.cpp.obj",
 			"ArticyAlternativeGlobalVariables.gen.cpp.obj",
 			"ArticyAsset.gen.cpp.obj",
 			"ArticyBaseObject.gen.cpp.obj",
@@ -14,9 +15,7 @@
 			"ArticyExpressoScripts.gen.cpp.obj",
 			"ArticyFlowClasses.gen.cpp.obj",
 			"ArticyFlowObject.gen.cpp.obj",
-			"ArticyFlowPlayer.gen.cpp.obj"
-		],
-		"Module.ArticyRuntime.2.cpp.obj": [
+			"ArticyFlowPlayer.gen.cpp.obj",
 			"ArticyFunctionLibrary.gen.cpp.obj",
 			"ArticyGlobalVariables.gen.cpp.obj",
 			"ArticyHyperlinkHandler.gen.cpp.obj",
@@ -34,9 +33,7 @@
 			"ArticyObjectWithPosition.gen.cpp.obj",
 			"ArticyObjectWithPreviewImage.gen.cpp.obj",
 			"ArticyObjectWithShortId.gen.cpp.obj",
-			"ArticyObjectWithSize.gen.cpp.obj"
-		],
-		"Module.ArticyRuntime.3.cpp.obj": [
+			"ArticyObjectWithSize.gen.cpp.obj",
 			"ArticyObjectWithSpeaker.gen.cpp.obj",
 			"ArticyObjectWithStageDirections.gen.cpp.obj",
 			"ArticyObjectWithTarget.gen.cpp.obj",
@@ -59,8 +56,9 @@
 			"ArticyTextExtension.gen.cpp.obj",
 			"ArticyType.gen.cpp.obj",
 			"ArticyTypeSystem.gen.cpp.obj",
-			"ShadowStateManager.gen.cpp.obj",
-			"PerModuleInline.gen.cpp.obj",
+			"ShadowStateManager.gen.cpp.obj"
+		],
+		"Module.ArticyRuntime.2.cpp.obj": [
 			"ArticyAlternativeGlobalVariables.cpp.obj",
 			"ArticyAsset.cpp.obj",
 			"ArticyBaseObject.cpp.obj",
@@ -68,9 +66,7 @@
 			"ArticyBuiltinTypes.cpp.obj",
 			"ArticyChangedProperty.cpp.obj",
 			"ArticyDatabase.cpp.obj",
-			"ArticyExpressoScripts.cpp.obj"
-		],
-		"Module.ArticyRuntime.4.cpp.obj": [
+			"ArticyExpressoScripts.cpp.obj",
 			"ArticyFlowClasses.cpp.obj",
 			"ArticyFlowPlayer.cpp.obj",
 			"ArticyFunctionLibrary.cpp.obj",
