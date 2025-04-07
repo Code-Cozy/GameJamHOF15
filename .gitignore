@@ -1,44 +1,20 @@
-## Unreal Engine gitignore
-
-# Folders to ignore
-HoF15/Saved/
-HoF15/Intermediate/
-HoF15/Build/
-NaNoRenO/Saved/
-NaNoRenO/Intermediate/
-NaNoRenO/Build/
-# Binaries and compiled files
-HoF15/Binaries/
-HoF15/DerivedDataCache/
-HoF15/.vs/
-HoF15/*.sln
-HoF15/*.VC.db
-HoF15/*.VC.opendb
-HoF15/*.log
-
-# Config files that should stay local
-HoF15/Config/Local/
-
-# Optional: Ignore specific plugin data
-HoF15/Plugins/*/Intermediate/
-HoF15/Plugins/*/Binaries/
-
-# Unreal Engine project files
-HoF15/*.uprojectdirs
-
-# Ignore auto-generated content
-HoF15/*.generated.*
-
-# Backup and autosave files
-HoF15/*.bak
-HoF15/*_Backup_*/
-
-# Cache and temp files
-HoF15/*.tmp
-HoF15/*.cache
-
-# Ignore the .gitignore itself if needed (optional)
-#/.gitignore
-/HoF15/Intermediate
-/HoF15/Saved
-/HoF15/Build/
+# Ignore common Unreal Engine directories and files for all projects
+**/Saved/
+**/Intermediate/
+**/Build/
+**/Binaries/
+**/DerivedDataCache/
+**/.vs/
+**/*.sln
+**/*.VC.db
+**/*.VC.opendb
+**/*.log
+**/Config/Local/
+**/Plugins/*/Intermediate/
+**/Plugins/*/Binaries/
+**/*.uprojectdirs
+**/*.generated.*
+**/*.bak
+**/*_Backup_*/
+**/*.tmp
+**/*.cache
